@@ -1,0 +1,5 @@
+Scenario : config/test3_fuel.json
+Hours    : 50
+Output   : output/test3_fuel.csv
+
+Done -> output/test3_fuel.csv

@@ -1,0 +1,5 @@
+Scenario : config/test6_inhomogeneous.json
+Hours    : 50
+Output   : output/test6_inhomogeneous.csv
+
+Done -> output/test6_inhomogeneous.csv

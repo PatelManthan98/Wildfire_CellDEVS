@@ -1,0 +1,5 @@
+Scenario : config/test7_incombustible.json
+Hours    : 50
+Output   : output/test7_incombustible.csv
+
+Done -> output/test7_incombustible.csv

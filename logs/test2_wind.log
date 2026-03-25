@@ -1,0 +1,5 @@
+Scenario : config/test2_wind.json
+Hours    : 50
+Output   : output/test2_wind.csv
+
+Done -> output/test2_wind.csv

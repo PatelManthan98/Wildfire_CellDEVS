@@ -1,0 +1,19 @@
+-- 
+--   Cadmium v2 path : /home/manthan/cadmium_v2
+-- 
+--   Build:
+--     mkdir -p build && cd build
+--     cmake .. && make -j4
+-- 
+--   Generate scenario files (one-time):
+--     python3 config/generate_scenarios.py
+-- 
+--   Run all tests:
+--     bash scripts/run_all.sh
+-- 
+--   Run a single test:
+--     ./wildfire config/test1_no_wind.json 50
+-- 
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manthan/Wildfire_CellDevs/build
