@@ -58,7 +58,7 @@ Bash
 python3 live_fire.py
 Legend:
 
-# : Active Fire / Fully Burned Area
+#  Active Fire / Fully Burned Area
 
 * : Currently Spreading
 
@@ -75,8 +75,6 @@ live_fire.py - Terminal-based animation script.
 
 config/ - JSON configuration files for different scenarios (Wind, No-Wind, etc.).
 
-📋 Credits & References
-Author: Manthan
 
 Framework: Cadmium DEVS
 
