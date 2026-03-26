@@ -45,7 +45,6 @@ The executable wildfire will be created in the build/ directory.
 To run the simulation, execute the binary with the desired simulation time (in hours) and the configuration file:
 
 Bash
-# Example: Run for 200 virtual hours using a config file
 ./build/wildfire config/wildfire_config.json 200
 Output
 The simulation generates a wildfire_results.csv file. The data is formatted as:
