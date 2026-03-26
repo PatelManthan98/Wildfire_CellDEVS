@@ -14,7 +14,7 @@
 # EXTERNAL cache entries
 ########################
 
-//Path to cadmium_v2 root
+//Path to cadmium_v2
 CADMIUM_DIR:PATH=/home/manthan/cadmium_v2
 
 //Path to a program.
