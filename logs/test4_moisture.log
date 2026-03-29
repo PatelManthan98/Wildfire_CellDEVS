@@ -1,5 +1,1 @@
-Scenario : config/test4_moisture.json
-Hours    : 50
-Output   : output/test4_moisture.csv
-
-Done -> output/test4_moisture.csv
+Simulation complete. Results: output/test4_moisture.csv

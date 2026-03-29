@@ -1,5 +1,1 @@
-Scenario : config/test1_no_wind.json
-Hours    : 50
-Output   : output/test1_no_wind.csv
-
-Done -> output/test1_no_wind.csv
+Simulation complete. Results: output/test1_no_wind.csv

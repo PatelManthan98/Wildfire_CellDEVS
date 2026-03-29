@@ -3,8 +3,9 @@
 visualize.py
 CSV format: time;model_id;(row,col);port;burned;fuel;elevation;moisture
 Usage: python3 scripts/visualize.py output/test1_no_wind.csv [--save] [--fps 5]
+to generate the animatio for all experiment run this command:for f in output/test*.csv; do python3 scripts/visualize.py "$f" --save --fps 5; done
 """
-import sys, re, argparse
+import sys, re, argparse, os
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -122,7 +123,8 @@ ani = animation.FuncAnimation(fig, update, frames=len(frames),
 plt.tight_layout()
 
 if args.save:
-    out = args.csv_file.replace(".csv", ".gif")
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(args.csv_file)))
+    out = os.path.join(project_root, "output", os.path.basename(args.csv_file).replace(".csv", ".gif"))
     print(f"Saving → {out}")
     ani.save(out, writer="pillow", fps=args.fps)
     print("Done.")

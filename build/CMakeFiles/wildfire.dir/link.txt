@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/wildfire.dir/main.cpp.o -o wildfire 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/wildfire.dir/main.cpp.o -o wildfire 

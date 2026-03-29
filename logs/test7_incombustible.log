@@ -1,5 +1,1 @@
-Scenario : config/test7_incombustible.json
-Hours    : 50
-Output   : output/test7_incombustible.csv
-
-Done -> output/test7_incombustible.csv
+Simulation complete. Results: output/test7_incombustible.csv

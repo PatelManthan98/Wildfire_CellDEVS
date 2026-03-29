@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/manthan/cadmium_v2/include -I/home/manthan/cadmium_v2/json/include -I/home/manthan/Wildfire_CellDevs -I/home/manthan/Wildfire_CellDevs/include
 
-CXX_FLAGS = -std=gnu++17 -Wall -Wextra -O2 -Wno-unused-parameter -Wno-sign-compare
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -O2 -Wno-unused-parameter -Wno-sign-compare
 
