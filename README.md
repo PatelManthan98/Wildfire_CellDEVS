@@ -143,40 +143,6 @@ python3 live_fire.py
 
 ---
 
-## 📂 Project Structure
-
-```
-Wildfire_CellDevs/
-├── build/                        # Compiled binaries (generated)
-├── config/                       # JSON config files + visualize.py
-│   ├── wildfire_config.json
-│   ├── test1_no_wind.json
-│   ├── test2_wind.json
-│   ├── test3_fuel.json
-│   ├── test4_moisture.json
-│   ├── test5_topography.json
-│   ├── test6_inhomogeneous.json
-│   └── test7_incombustible.json
-├── output/                       # Simulation CSVs and GIF outputs
-│   ├── test1_no_wind.csv
-│   ├── test2_wind.csv
-│   ├── test3_fuel.csv
-│   ├── test4_moisture.csv
-│   ├── test5_topography.csv
-│   ├── test6_inhomogeneous.csv
-│   └── test7_incombustible.csv
-├── scripts/
-│   └── visualize.py              # Matplotlib animation + GIF export
-├── src/
-│   ├── main.cpp                  # Entry point and simulation coordinator
-│   ├── wildfire_cell.hpp         # Core transition logic and spread equations
-│   └── state.hpp                 # Cell-DEVS state definition and CSV output
-├── live_fire.py                  # Terminal-based ASCII animation
-├── CMakeLists.txt
-└── README.md
-```
-
----
 
 ## 🧪 Experiments
 
