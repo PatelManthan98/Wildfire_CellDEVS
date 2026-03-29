@@ -1,6 +1,6 @@
 # Wildfire Propagation Simulation (Cell-DEVS)
 
-This project implements a forest fire spread model based on the **Karafyllidis & Thanailakis (1997)** cellular automata formalism using the **Cadmium CD++ framework**. It simulates how fire propagates across a 2D grid based on fuel load, moisture, elevation, and neighborhood interactions.
+This project implements a forest fire spread model, cellular automata formalism using the **Cadmium CD++ framework**. It simulates how fire propagates across a 2D grid based on fuel load, moisture, elevation, and neighborhood interactions.
 
 ---
 
