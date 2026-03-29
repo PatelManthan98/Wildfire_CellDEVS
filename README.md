@@ -48,13 +48,7 @@ pip install numpy matplotlib
 From the project root directory:
 
 ```bash
-# 1. Create and enter the build directory
-mkdir -p build
-cd build
-
-# 2. Configure and compile
-cmake ..
-make -j4
+# source build_sim.sh
 ```
 
 The executable `wildfire` will be created in the `build/` directory.
